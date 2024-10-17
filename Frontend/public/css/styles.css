@@ -55,6 +55,20 @@ button:hover {
     color: red;
 }
 
+.successModel
+{
+    display: none;
+    position: fixed;
+    top: 50%;
+    transform:translate(-50%, -50%); 
+    padding:20px; 
+    background-color:white; 
+    border:1px solid black; 
+    z-index:1000;
+}
+
+
+
 #message {
     margin-top: 20px;
     text-align: center;

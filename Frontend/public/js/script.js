@@ -9,13 +9,20 @@ function submitLogin() {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-             "UserName":username, 
-             "PassWord":password })
+             "UserName": username, 
+             "PassWord": password 
+        })
     })
     .then(response => response.json())
     .then(data => {
         document.getElementById('message').innerText = data.message;
+        
+        // แสดงข้อความ Success เป็น pop-up
+        if (data.message === 'Success') {
+            alert('Success');
+        }
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+        console.error('Error:', error);
+    });
 }
-
