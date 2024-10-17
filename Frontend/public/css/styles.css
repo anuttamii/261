@@ -17,6 +17,10 @@ body {
     text-align: center;
     width: 450px;
 }
+.login-container img
+{
+    align-items: center;
+}
 
 h1 {
     text-align: center;
@@ -38,7 +42,7 @@ input {
 }
 
 button {
-    width: 100%;
+    width: 20%;
     padding: 10px;
     background-color: #007bff;
     border: none;
@@ -47,7 +51,8 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #f3ea3c;
+    color: red;
 }
 
 #message {
