@@ -51,23 +51,9 @@ button {
 }
 
 button:hover {
-    background-color: #f3ea3c;
-    color: red;
+    background-color: #00c116;
+    color: rgb(255, 255, 255);
 }
-
-.successModel
-{
-    display: none;
-    position: fixed;
-    top: 50%;
-    transform:translate(-50%, -50%); 
-    padding:20px; 
-    background-color:white; 
-    border:1px solid black; 
-    z-index:1000;
-}
-
-
 
 #message {
     margin-top: 20px;

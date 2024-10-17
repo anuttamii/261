@@ -21,6 +21,9 @@ function submitLogin() {
         if (data.message === 'Success') {
             alert('Success');
         }
+        else {
+            alert(':(');
+        }
     })
     .catch(error => {
         console.error('Error:', error);
