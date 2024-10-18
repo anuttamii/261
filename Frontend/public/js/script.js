@@ -19,7 +19,7 @@ function submitLogin() {
         
         // แสดงข้อความ Success เป็น pop-up
         if (data.message === 'Success') {
-            alert('Success');
+            alert(':)');
         }
         else {
             alert(':(');
